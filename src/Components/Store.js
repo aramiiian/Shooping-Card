@@ -1,14 +1,16 @@
-import React from "react";
-import "./Store.style.css";
+import { useState } from "react";
+import { shopData } from "../data/data";
 import Sidebar from "./Sidebar";
 import ProductSheet from "./ProductSheet";
+import "./store.style.css";
 
 const Store = () => {
+  const [products, setProducts] = useState(shopData);
   return (
     <>
-      <main>
+      <main className="main">
         <Sidebar />
-        <ProductSheet />
+        <ProductSheet products={products} />
       </main>
     </>
   );
