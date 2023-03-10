@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./product.css";
 
 const Product = ({
   productImage,
@@ -14,7 +15,7 @@ const Product = ({
       onMouseEnter={() => setIshover(false)}
       onMouseLeave={() => setIshover(true)}
     >
-      <img src={ishover ? productImage : productImageHov} alt="" />
+      <img src={ishover ? productImage : productImageHov} alt="product-photo" />
       <h2>{productName}</h2>
       <h5>{productPrice}</h5>
       <p>{prodSale}</p>

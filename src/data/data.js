@@ -7,6 +7,7 @@ export const shopData = [
     productName: "Cropped Stay Groovy off white",
     productPrice: `$10.90`,
     prodSale: `or 9 x$1.21`,
+    size: ["L", "XL", "XXL"],
   },
   {
     productImage: images.photo2,
@@ -14,6 +15,7 @@ export const shopData = [
     productName: "Basic Cactus White T-shirt",
     productPrice: `$13.25`,
     prodSale: `or 3 x$4.42`,
+    size: ["ML", "L"],
   },
   {
     productImage: images.photo3,
@@ -21,6 +23,7 @@ export const shopData = [
     productName: "Skater Black Sweatshirt",
     productPrice: `$25.90`,
     prodSale: `or 12 x$2.16`,
+    size: ["XL"],
   },
   {
     productImage: images.photo4,
@@ -28,6 +31,7 @@ export const shopData = [
     productName: "Black Tule Oversized",
     productPrice: `$29.45`,
     prodSale: `or 5 x$5.89`,
+    size: ["M", "ML"],
   },
   {
     productImage: images.photo5,
@@ -35,6 +39,7 @@ export const shopData = [
     productName: "Black Batman T-shirt",
     productPrice: `$10.90`,
     prodSale: `or 9 x$1.21`,
+    size: ["XS", "S"],
   },
   {
     productImage: images.photo6,
@@ -42,6 +47,7 @@ export const shopData = [
     productName: "Blue T-Shirt",
     productPrice: `$9.00`,
     prodSale: `or 3 x$3.00`,
+    size: ["L", "XL"],
   },
   {
     productImage: images.photo7,
@@ -49,6 +55,7 @@ export const shopData = [
     productName: "Loose Black T-shirt",
     productPrice: `$14.00`,
     prodSale: `or 5 x$2.80`,
+    size: ["L", "XL", "XXL"],
   },
   {
     productImage: images.photo8,
@@ -56,6 +63,7 @@ export const shopData = [
     productName: "Ringer Hall Pass",
     productPrice: `$10.90`,
     prodSale: `or 9 x$1.21`,
+    size: ["L", "XL", "XXL"],
   },
   {
     productImage: images.photo9,
@@ -63,6 +71,7 @@ export const shopData = [
     productName: "Grey T-shirt",
     productPrice: `$14.90`,
     prodSale: `or 7 x$2.13`,
+    size: ["L", "XL"],
   },
   {
     productImage: images.photo10,
@@ -70,6 +79,7 @@ export const shopData = [
     productName: "Black T-shirt with white stripes",
     productPrice: `$14.90`,
     prodSale: `or 7 x$2.13`,
+    size: ["L"],
   },
   {
     productImage: images.photo11,
@@ -77,6 +87,7 @@ export const shopData = [
     productName: "Turtles Ninja T-shirt",
     productPrice: `$10.90`,
     prodSale: `or 9 x$1.21`,
+    size: ["L"],
   },
   {
     productImage: images.photo12,
@@ -84,6 +95,7 @@ export const shopData = [
     productName: "Slim black T-shirt",
     productPrice: `$49.90`,
     prodSale: `or 9 x$5.44`,
+    size: ["XL", "XXL"],
   },
   {
     productImage: images.photo13,
@@ -91,6 +103,7 @@ export const shopData = [
     productName: "Blue Sweatshirt",
     productPrice: `$22.50`,
     prodSale: `or 4 x$5.63`,
+    size: ["S"],
   },
   {
     productImage: images.photo14,
@@ -98,6 +111,7 @@ export const shopData = [
     productName: "White T-shirt Gucci",
     productPrice: `$18.70`,
     prodSale: `or 4 x$4.67`,
+    size: ["XL"],
   },
   {
     productImage: images.photo15,
@@ -105,6 +119,7 @@ export const shopData = [
     productName: "Tropical Wine T-shirt",
     productPrice: `$134.90`,
     prodSale: `or 5 x$26.98`,
+    size: ["L", "XL"],
   },
   {
     productImage: images.photo16,
@@ -112,5 +127,6 @@ export const shopData = [
     productName: "Marine Blue T-shirt",
     productPrice: `$49.00`,
     prodSale: `or 9 x$5.44`,
+    size: ["L", "XL"],
   },
 ];

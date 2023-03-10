@@ -1,0 +1,23 @@
+/* label {
+  color: #000;
+  position: relative;
+  width: 35px;
+  display: flex;
+}
+span {
+  background: #ececec;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+}
+input {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 0;
+} */
