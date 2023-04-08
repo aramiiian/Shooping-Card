@@ -2,5 +2,10 @@
   width: 1000px;
   display: flex;
   flex-wrap: wrap;
+  gap: 40px 20px;
+}
+.prodSheet {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }

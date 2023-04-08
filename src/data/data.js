@@ -130,3 +130,4 @@ export const shopData = [
     size: ["L", "XL"],
   },
 ];
+export const sizeData = ["XS", "S", "M", "ML", "L", "XL", "XXL"];

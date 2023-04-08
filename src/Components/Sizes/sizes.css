@@ -1,8 +1,7 @@
-/* label {
+label {
   color: #000;
   position: relative;
   width: 35px;
-  display: flex;
 }
 span {
   background: #ececec;
@@ -13,11 +12,44 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #000;
+  font-size: 10px;
 }
+.spanActive {
+  background: #000;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  color: #fff;
+}
+span:hover {
+  border: 1px solid;
+  cursor: pointer;
+}
+
 input {
   position: absolute;
   opacity: 0;
   left: 0;
   top: 0;
-} */
+}
+.sizeBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.sizesH2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+
+.sizesP {
+  padding: 30px 0;
+  font-size: 14px;
+  line-height: 25px;
+}

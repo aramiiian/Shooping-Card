@@ -1,4 +1,4 @@
-import react from "react";
+// import react from "react";
 import Sizes from "../Sizes/Sizes";
 import "./sidebar.css";
 
